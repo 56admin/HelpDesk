@@ -4,6 +4,6 @@ from .models import Start_task
 from .views import *
 
 
-urlpatterns = {
+urlpatterns = [
     path('', index),
-}
+]
